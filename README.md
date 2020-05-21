@@ -4,7 +4,7 @@
 
 # Project Description
 Display world index values of various world markets. 
-Data that appears in visual starts from May 14, 2020 
+Data that appears in visual starts from May 14, 2020 and updates daily
 
 # Steps taken
 Live data was scraped (BeautifulSoup library), manipulated, stored in Pandas dataframes and sent to Postgres database using the SQLalchemy Python library. 
