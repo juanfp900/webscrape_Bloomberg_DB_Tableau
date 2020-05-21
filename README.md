@@ -3,7 +3,7 @@
 [Link to Tableau View!](https://public.tableau.com/profile/juanp5926#!/vizhome/WorldIndexValues/Dashboard1)
 
 # Project Description
-Display the index changes from various markets around the world in an intuative way. 
+Display the index changes from various markets from around the world in an intuative way. 
 
 # Steps taken
 Live data was scraped, stored in Pandas dataframes and sent to Postgres database using the SQLalchemy Python library. 
