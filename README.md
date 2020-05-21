@@ -4,8 +4,10 @@
 
 # Project Description
 Display the index changes from various markets around the world in an intuative way. 
-live data was scraped and sent to Postgres database using the SQLalchemy Python library by connecting to Postgres database. 
-The data was viewed using using PGAdmin4
+Live data was scraped, stored in dataframes and sent to Postgres database using the SQLalchemy Python library. 
+Data was queried and modified in PgAdmin4 to prepare for Tableau. The database was then conencted with Tableau and
+filters, formats and calculated values, parameters were added to visualize the data as shown in the link above
+
 
 # Where did the data come from? 
 
