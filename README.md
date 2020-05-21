@@ -18,6 +18,7 @@ Data was extracted using Python web scraping.
  - [Americas Indexes](https://www.bloomberg.com/markets/stocks/world-indexes/americas)
  - [Europe-Africa-MdiddleEast Indexes](https://www.bloomberg.com/markets/stocks/world-indexes/europe-africa-middle-east)
  - [Asia Pacific Indexes](https://www.bloomberg.com/markets/stocks/world-indexes/asia-pacific)
+
 live data was scraped and sent to Postgres database using the SQLalchemy Python library by connecting to Postgres database. 
 The data was viewed using using PGAdmin4
 
