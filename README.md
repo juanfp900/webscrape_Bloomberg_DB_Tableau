@@ -6,7 +6,7 @@
 Display the index changes from various markets from around the world in an intuative way. Data in visual starts from May 14, 2020 - onwards
 
 # Steps taken
-Live data was scraped, stored in Pandas dataframes and sent to Postgres database using the SQLalchemy Python library. 
+Live data was scraped (BeautifulSoup library), manipulated, stored in Pandas dataframes and sent to Postgres database using the SQLalchemy Python library. 
 Data was queried and modified in PgAdmin4 using SQL to prepare for Tableau.
 The database was then conencted to Tableau Desktop.
 (There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau public cannot connect to a server). 
@@ -19,6 +19,5 @@ Data was extracted using Python web scraping.
  - [Europe-Africa-MdiddleEast Indexes](https://www.bloomberg.com/markets/stocks/world-indexes/europe-africa-middle-east)
  - [Asia Pacific Indexes](https://www.bloomberg.com/markets/stocks/world-indexes/asia-pacific)
 
-live data was scraped and sent to Postgres database using the SQLalchemy Python library by connecting to Postgres database. 
-The data was viewed using using PGAdmin4
+
 
