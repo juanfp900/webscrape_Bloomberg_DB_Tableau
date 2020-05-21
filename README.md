@@ -9,7 +9,7 @@ Display the index changes from various markets from around the world in an intua
 Live data was scraped (BeautifulSoup library), manipulated, stored in Pandas dataframes and sent to Postgres database using the SQLalchemy Python library. 
 Data was queried and modified in PgAdmin4 using SQL to prepare for Tableau.
 The database was then conencted to Tableau Desktop.
-(There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau public cannot connect to a server). 
+(There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau public does not allow connection to a database). 
 
 # Where did the data come from? 
 
