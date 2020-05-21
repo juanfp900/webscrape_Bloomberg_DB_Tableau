@@ -679,7 +679,6 @@ class WebScrapeBloomberg:
 	def DfToDatabase(self, df):
 		
 		tableNames = ['americas', 'emea', 'asia_pacific']
-		#engine = create_engine('postgresql://:Nbareddit@12@Juans-MacBook-Air.local:3306/world_financial_indexes')
 		engine = create_engine('DBtype://Password@localhost:port/databaseName')
 		connection = engine.connect()
 
@@ -719,7 +718,8 @@ class WebScrapeBloomberg:
 		pd.set_option('display.max_column', None)
 		print(df)
 		
-		path = r'/Users/JuanP/Desktop/PythonProjects/WebScrape_Bloomberg_DB_Tableau/World_Financial_Indexes.xlsx'
+		path = r"filePath/World_Financial_Indexes.xlsx"
+
 		book = load_workbook(path)
 
 		writer = pd.ExcelWriter(path, engine = 'openpyxl')
@@ -746,7 +746,7 @@ class WebScrapeBloomberg:
 		df['time'] = currentTime
 		
 
-		path = r'/Users/JuanP/Desktop/PythonProjects/WebScrape_DB_Tableau/cmon2.xlsx'
+		path = r"filePath/World_Financial_Indexes.xlsx"
 		book = load_workbook(path)
 
 
