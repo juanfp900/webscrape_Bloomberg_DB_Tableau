@@ -3,11 +3,11 @@
 [Link to Tableau View](https://public.tableau.com/profile/juanp5926#!/vizhome/WorldIndexValues/Dashboard1)
 
 # Project Description
-Display world index values of world markets with foreign and USD currency comparisons. 
+Display Index values of world markets with foreign and USD currency comparisons. 
 Data that appears in visual starts from May 14, 2020 and updates daily
 
 # Project Goal
-To make it easier for users to view updated index values daily through the addition of charts, visuals and added colors 
+To make it easier for users to view updated Index values daily through the addition of charts, visuals and added colors. 
 The bloomberg website makes it difficult to compare index values in its table like format and doesn't
 have direct USD, foreign currency comparisons of each individual index. 
 
