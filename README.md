@@ -7,7 +7,7 @@ Display world index values of various world markets.
 Data that appears in visual starts from May 14, 2020 and updates daily
 
 # Steps taken
-  - Live data was scraped (BeautifulSoup library), manipulated, stored in Pandas dataframes
+  - Live data was scraped, (BeautifulSoup library) manipulated, stored in Pandas dataframes
   - Data was sent to a Postgres database using the SQLalchemy Python library. 
   - Data was queried and modified in PgAdmin4 using SQL to prepare for Tableau.
   - Conencted postgres database to Tableau Desktop.
