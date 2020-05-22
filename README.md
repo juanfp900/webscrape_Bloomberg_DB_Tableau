@@ -9,14 +9,14 @@ Data that appears in visual starts from May 14, 2020 and updates daily
 # Project Goal
 To make it easier for users to view updated Index values daily through the addition of charts, visuals and added colors. 
 The bloomberg website makes it difficult to compare index values in its table like format and doesn't
-have direct USD, foreign currency comparisons of each individual index. 
+have direct USD, foreign currency comparisons for each individual index. 
 
 # Steps taken 
-  - Data is scraped, manipulated and stored within Pandas dataframes.
+  - Data is scraped, manipulated and stored within three Pandas dataframes (Americas, EMEA, Asia Pacific).
   - Dataframes are transfered to a Postgres database using the SQLalchemy Python library. 
-  - Each dataframe is seperated as its own table and queried and modified to prepare for Tableau
-  - Conencted postgres database to Tableau Desktop.
-  - Build a visual using Tableau
+  - Each dataframe is stored in its own table and modified to prepare for Tableau.
+  - Conenction occurs with postgres database and Tableau Desktop.
+  - Build a visual using Tableau. 
 
 (There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau Public does not allow connection to a database or allow visuals to be displayed within Tableau Public). 
 
