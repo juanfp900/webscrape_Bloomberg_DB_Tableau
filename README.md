@@ -2,12 +2,20 @@
 
 [Link to Tableau View](https://public.tableau.com/profile/juanp5926#!/vizhome/WorldIndexValues/Dashboard1)
 
+# Project Goal
+Display index values in an easy to view way that 
+
 # Project Description
-Display world index values of various world markets. 
+Display world index values of various world markets with foreign and USD currency comparisons. 
 Data that appears in visual starts from May 14, 2020 and updates daily
 
+# Project Goal
+To make it easier for users to view index values daily through 
+with the addition of charts, visuals and added colors 
+The bloomberg website makes it difficult to compare index values in its table like format.
+
 # Steps taken
-  - Live data was scraped, (BeautifulSoup library) manipulated, stored in Pandas dataframes
+  - Data is scraped, manipulated and stored in dataframes daily
   - Data was sent to a Postgres database using the SQLalchemy Python library. 
   - Data was queried and modified in PgAdmin4 using SQL to prepare for Tableau.
   - Conencted postgres database to Tableau Desktop.
