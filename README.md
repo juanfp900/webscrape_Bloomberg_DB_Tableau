@@ -18,7 +18,7 @@ have direct USD, foreign currency comparisons for each individual index.
   - Conenction occurs with postgres database and Tableau Desktop.
   - Data is visualized using Tableau.
 
-(There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau Public does not allow connection to a database or allow visuals to be displayed within Tableau Public). 
+(There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau Public does not allow connection to a database or allows visuals to be displayed within Tableau Public). 
 
 # Where did the data come from? 
 
