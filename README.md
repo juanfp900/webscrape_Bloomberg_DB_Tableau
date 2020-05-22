@@ -7,9 +7,9 @@ Display world index values of world markets with foreign and USD currency compar
 Data that appears in visual starts from May 14, 2020 and updates daily
 
 # Project Goal
-To make it easier for users to view index values daily through 
-with the addition of charts, visuals and added colors 
-The bloomberg website makes it difficult to compare index values in its table like format.
+To make it easier for users to view index values daily through the addition of charts, visuals and added colors 
+The bloomberg website makes it difficult to compare index values in its table like format and doesn't
+have direct USD, foreign currency comparisons of each individual index. 
 
 # Steps taken
   - Data is scraped, manipulated and stored in dataframes daily
