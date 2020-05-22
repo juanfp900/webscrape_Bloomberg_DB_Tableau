@@ -3,8 +3,8 @@
 [Link to Tableau View](https://public.tableau.com/profile/juanp5926#!/vizhome/WorldIndexValues/Dashboard1)
 
 # Project Description
-Display Index values of world markets with added foreign and USD currency comparisons. 
-Data that appears in visual starts from May 14, 2020 and updates daily
+Display Index values of world markets with foreign and USD currency comparisons. 
+Data that appears in visual starts from May 14, 2020 and updates daily.
 
 # Project Goal
 To make it easier for users to view updated Index values daily through the addition of charts, visuals and added colors. 
