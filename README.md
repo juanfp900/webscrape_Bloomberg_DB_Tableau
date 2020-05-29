@@ -1,9 +1,9 @@
 # Visualize Live Bloomberg Index Values with Tableau
 
 
-![Image of FXCM token](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/TokenFXCM.png)
+![Image of FXCM token](https://github.com/juanfp900/webscrape_Bloomberg_DB_Tableau/blob/master/Images/View.png)
 
-[Link to Tableau View](https://github.com/juanfp900/webscrape_Bloomberg_DB_Tableau/blob/master/Images/View.png)
+[Link to Tableau View](https://public.tableau.com/profile/juanp5926#!/vizhome/WorldIndexValues/Dashboard1)
 
 # Project Description
 Display Index values of world markets with foreign and USD currency comparisons. 
