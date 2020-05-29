@@ -17,7 +17,7 @@ have direct USD, foreign currency comparisons for each individual index.
 # Steps taken 
   - Data is scraped, manipulated and stored within three Pandas dataframes (Americas, EMEA, Asia Pacific).
   - Dataframes are transfered to a Postgres database using the SQLalchemy Python library. 
-  - Each dataframe is stored in its own table and modified to prepare for Tableau.
+  - Each dataframe is stored in its own table and modified to prepare for Tableau in PGadmin4 UI
   - Conenction occurs with postgres database and Tableau Desktop.
   - Data is visualized using Tableau.
   
