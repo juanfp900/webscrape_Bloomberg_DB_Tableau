@@ -16,9 +16,9 @@ have direct USD, foreign currency comparisons for each individual index.
   - Dataframes are transfered to a Postgres database using the SQLalchemy Python library. 
   - Each dataframe is stored in its own table and modified to prepare for Tableau.
   - Conenction occurs with postgres database and Tableau Desktop.
-  - Visualized the data using Tableau. 
+  - Data is visualized using Tableau.
 
-(There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau Public does not allow connection to a database or allow visuals to be displayed within Tableau Public). 
+(There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau Public does not allow a connection to a database or permission to display visuals to Tableau Public). 
 
 # Where did the data come from? 
 
