@@ -1,6 +1,9 @@
 # Visualize Live Bloomberg Index Values with Tableau
 
-[Link to Tableau View](https://public.tableau.com/profile/juanp5926#!/vizhome/WorldIndexValues/Dashboard1)
+
+![Image of FXCM token](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/TokenFXCM.png)
+
+[Link to Tableau View](https://github.com/juanfp900/webscrape_Bloomberg_DB_Tableau/blob/master/Images/View.png)
 
 # Project Description
 Display Index values of world markets with foreign and USD currency comparisons. 
@@ -17,6 +20,9 @@ have direct USD, foreign currency comparisons for each individual index.
   - Each dataframe is stored in its own table and modified to prepare for Tableau.
   - Conenction occurs with postgres database and Tableau Desktop.
   - Data is visualized using Tableau.
+  
+ 
+![Image of pgAdmin4](https://github.com/juanfp900/webscrape_Bloomberg_DB_Tableau/blob/master/Images/PGAdmin4-Postgres.png)
 
 (There is also code available within the Python file that sends dataframes to a .xlsx file since Tableau Public does not allow a connection to a database or permission to display visuals to Tableau Public). 
 
